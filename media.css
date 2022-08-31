@@ -1,0 +1,87 @@
+            /*media queries*/
+
+/* X-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    #nav, #home {
+        background-color: #151F35;
+    }
+    #offcanvasDarkNavbar > div.offcanvas-body > ul {
+        margin-left: -3em;
+    }
+    #nav > div > a {
+        margin-left: 0%;
+        margin-right: 29%;
+    }
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .bgcard, .bgcard1 {
+        margin-top: 0.6em;
+    }
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    #nav, #home {
+        background-color: #151F35;
+    }
+    #offcanvasDarkNavbar > div.offcanvas-body > ul {
+        margin-left: -3em;
+    }
+    #nav > div > a {
+        margin-left: 20%;
+        margin-right: 40%;
+    }
+    .bgcard, .bgcard1 {
+        margin-top: 0.6em;
+    }
+
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+    #nav, #home {
+        background-color: #151F35;
+    }
+    #nav > div > a {
+        margin-left: 20%;
+        margin-right: 40%;
+    }
+    .flex-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .bgcard, .bgcard1 {
+        margin-top: 3em;
+    }
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+    #nav, #home {
+        background-color: #151F35;
+    }
+    #offcanvasDarkNavbar > div.offcanvas-body > ul {
+        margin-left: 6em;
+    }
+    #nav > div > a {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .flex-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .bgcard, .bgcard1 {
+        margin-top: 3em;
+    }
+}
+/*X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+
+}
+/*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+}

@@ -1,0 +1,130 @@
+html, body {
+    height: 100%;
+}
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#home {
+    margin-top: 4em;
+}
+#nav > div > a {
+    font-weight: 700;
+}
+#offcanvasDarkNavbar > div.offcanvas-body > ul > li > a {
+    margin-left: 3em;
+    color: #F6F6F6;
+}
+#offcanvasDarkNavbar > div.offcanvas-body > ul > li:nth-child(1) > a {
+    color: #FFFFFF;
+}
+#offcanvasDarkNavbar > div.offcanvas-body > ul > li > a:hover {
+    text-decoration: underline #248DE9;
+}
+#nav > div > button, #nav > div > button:hover {
+    border: none;
+}
+        /* comeco sua empresa*/
+.h3sua {
+    margin-top: 3em;
+    margin-bottom: 1em;
+    color: #FFFFFF;
+}
+.h6lorem {
+    font-size: 0.8em;
+}
+#home > div > div > div:nth-child(1) > button, #home3 > div > div > div.col-md-6 > button {
+    border-radius: 9px;
+    font-weight: bold;
+    border: none;
+    font-size: 0.9em;
+    background-color: #248DE9;
+}
+#home > div > div > div:nth-child(1) > button:hover, #home3 > div > div > div.col-md-6 > button:hover {
+    transform: scale(1.03);
+}
+        /*COMEÇO 2 MIL*/
+
+#home2 > div > div > p {
+    font-weight: 500;
+}
+#home2 > div > div > h4 {
+    font-weight: 700;
+}
+#home2, #home4, .bgform {
+    background-color: #F6F7F9;
+}
+
+.card1 {
+    background-color: #248DE9;
+}
+#home3 > div > div > div:nth-child(2) > div > img, #home3 > div > div > div:nth-child(3) > div > img {
+    width: 79px;
+    margin: 0.8em;
+}
+.cardfaz {
+    font-size: 0.9em;
+    font-weight: 700;
+}
+.cardfaz1 {
+    font-size: 0.8em;
+    font-weight: 400;
+}
+.bgcard {
+    background: linear-gradient(#0c78d7, #439dec, #0c78d7);
+    
+}
+.bgcard1 {
+    background: linear-gradient(#EEEEEE, #FFFFFF, #EEEEEE);
+}
+#home3 > div > div > div:nth-child(2) > div, #home3 > div > div > div:nth-child(3) > div {
+    border: none;
+    margin-bottom: 3em;
+    height: 18em;
+}
+.sobre {
+    font-weight: 700;
+}
+.lorem {
+    font-weight: 550;
+    font-size: 15px;
+}
+#home6 > div > div > div > form > label:nth-child(1) {
+    text-align: center;
+    display: inline-block;
+}
+label {
+    margin-top: 15px;
+    margin-bottom: 2px;
+}
+input {
+    width: 90%;
+}
+input[type=submit] {
+    margin-top: 2em;
+    border: none;
+    border-radius: 9px;
+    font-weight: bold;
+    font-size: 0.9em;
+    background-color: #248DE9;
+    color: #FFFFFF;
+    padding: 4px 0 4px 0;
+}
+input[type=submit]:hover {
+    transform: scale(1.03);
+}
+input[type=text], input[type=tel] {
+    border-radius: 9px;
+    padding: 6px;
+    font-size: 14px;
+    border: none;
+}
+.bgform {
+    border-radius: 9px;
+    margin-left: 5px;
+}
+footer {
+    margin-top: 2em;
+    padding-bottom: 5em;
+    font-size: 14px;
+    font-weight: 500;
+}
